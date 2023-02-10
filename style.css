@@ -1,0 +1,39 @@
+body {
+    font-family: "Ariel", sans-serif;
+    background-color: rgba(116, 173, 173, 0.467);
+    background-image: url(img/background.webp);
+    font-family: "Permanent Marker", cursive;
+}
+.game--title {
+    font-size: 60px;
+    color: rgb(226, 69, 69);
+}
+section {
+    text-align: center;
+}
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 3px solid #270bff;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+button {
+    color:rgb(226, 69, 69);
+    background-color: #f0d8d8;
+    font-family: "Permanent Marker", cursive;
+    border: none;
+    border-radius: 15%;
+    width: 100px
+}
+
